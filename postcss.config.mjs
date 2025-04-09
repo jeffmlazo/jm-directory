@@ -1,10 +1,8 @@
+/** @type {import('postcss-load-config').Config} */
 const config = {
-  plugins: ['@tailwindcss/postcss'],
-  // 'tailwindcss/nesting',
-  // ['tailwindcss', { config: './custom-tailwind-config.js' }],
-  // ['autoprefixer', { grid: true }],
-  // ['postcss-custom-properties', { preserve: false }],
-  // 'postcss-flexbugs-fixes',
+  plugins: {
+    tailwindcss: {},
+  },
 };
 
 export default config;
