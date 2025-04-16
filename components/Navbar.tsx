@@ -39,7 +39,6 @@ const Navbar = async () => {
                         await signIn('github');
                     }}>
                     <button type="submit">
-                        {/* BUG: OAuthentication for Github login not working */}
                         <span>Login</span>
                     </button>
                     </form>
