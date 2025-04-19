@@ -92,6 +92,7 @@ const StartupForm = () => {
         </div>
 
         <div>
+            {/* BUG: The description always returns an error for the max length should not exceed 500 characters */}
             <label htmlFor="description" className="startup-form_label">
                 Description
             </label>
